@@ -9,7 +9,7 @@
     "start:dev": "webpack-dev-server --content-base src --hot --inline",
     "test": "jest",
     "build": "webpack",
-    "start": "ts-node src/server/index.ts"
+    "start": "ts-node src/server/index.tsx"
   },
   "engines": {
     "node": "10.5.0"
