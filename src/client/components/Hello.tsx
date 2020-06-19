@@ -6,8 +6,6 @@ interface IHelloProps {
 
 export default class Hello extends React.Component<IHelloProps> {
     render() {
-        return <div>
-            Hello {this.props.name}!
-        </div>
+        return <div>{this.props.name}</div>
     }
 }

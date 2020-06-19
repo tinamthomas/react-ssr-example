@@ -3,7 +3,7 @@ import * as ReactDOM from "react-dom";
 
 import Main from './components/Main';
 
-ReactDOM.render(
+ReactDOM.hydrate(
     <Main/>,
     document.getElementById("example")
 );
